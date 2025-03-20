@@ -34,11 +34,11 @@ entier debut() {
     liste<entier> nombres = {un , trois, quatre};
     fout_dedans(nombres, neuf);
 
-    pour (entier i = 0; i inferieur nombres.taille(); i++) {
+    pour (entier i = zero; i inferieur nombres.taille(); i++) {
         affiche << "Valeur : " << nombres[i] << fin_de_ligne;
     }
 
-    retourne 0;
+    retourne zero;
 }
 ```
 
